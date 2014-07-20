@@ -1,0 +1,10 @@
+{
+  "author": "Todd Lunter",
+  "name": "TwitterFlow",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "~0.11.0",
+    "aviator": "~0.4.2",
+    "reqwest": "~1.1.1"
+  }
+}
