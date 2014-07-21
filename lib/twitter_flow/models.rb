@@ -14,6 +14,7 @@ class TwitterFlow::Tweet
   include DataMapper::Resource
 
   property :id, Serial
+  property :twitter_id, Integer, min: 0, max: 2**64-1, unique: true
   property :full_text, String, :length => 255
   property :created_at, DateTime
 
