@@ -20,7 +20,7 @@ var TwitterList = React.createClass({
   },
   setTweets: function(resp) {
     this.setState({ tweets: resp });
-    setTimeout(this.loadTweets, 30000);
+    setTimeout(this.loadTweets, 60000);
   },
   renderTweets: function() {
     return this.state.tweets.map(function(t) {
